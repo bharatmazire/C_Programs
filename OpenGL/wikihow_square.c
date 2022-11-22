@@ -14,6 +14,8 @@ void renderFunction()
     glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
   
     // apply translation
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
     glTranslatef(x,0.0f,0.0f);
     // apply color
     glColor3f(1.0, 1.0, 1.0);
