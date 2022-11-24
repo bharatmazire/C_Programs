@@ -1,0 +1,4 @@
+g++ -c MultiColorTri.cpp
+g++ -o multi_tri MultiColorTri.o -lGL -lGLU -lglut
+./multi_tri
+
